@@ -34,6 +34,8 @@
  * 2. Arduino IDE tool-->Select the board: Seeeduino Wio Terminal. 
  * 3. Arduino IDE tool-->Select the USB Stack: TinyUSB. 
  * 4. Arduino IDE tool-->Select the COM port. 
+ * 
+ * If you have any questions, you can leave a message on the forum: https://forum.seeedstudio.com/t/seeeduionxiao/252299
  */
 
 #include "Adafruit_TinyUSB.h"
@@ -51,7 +53,7 @@
 #define Open_My_Computor             0x80             
 /*-------------------------------------------------*/
 
-/* Usb HID report descriptor. */
+/* USB HID report descriptor. */
 //You can learn more detail of USB HID report descriptor from: USB HID Usage Tables 1.12(https://www.usb.org/sites/default/files/documents/hut1_12v2.pdf) 
 uint8_t const desc_hid_report[] =
 {
