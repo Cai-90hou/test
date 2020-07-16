@@ -15,47 +15,33 @@ Get Started
 ====================================================================================
     1) Copy the content of folder to your local path using git tool.
 
-```shell
-$ git clone https://github.com/Seeed-Studio/seeed-linux-usbdisp.git
-```
+        $ git clone https://github.com/Seeed-Studio/seeed-linux-usbdisp.git
 
     2) Update the raspberry pi kernel and header files.
 
-```shell
-$ sudo apt-get -y --force-yes install raspberrypi-kernel-headers raspberrypi-kernel
-```
+        $ sudo apt-get -y --force-yes install raspberrypi-kernel-headers raspberrypi-kernel
 
     3) Go to the linux-driver path.
 
-```shell
-$ cd your_local_path/seeed-linux-usbdisp/drivers/linux-driver/
-```
+        $ cd your_local_path/seeed-linux-usbdisp/drivers/linux-driver/
 
     4) Compile and install the driver.
 
-```shell
-$ make && sudo make install
-```
+        $ make && sudo make install
 
     5) Restart raspberry pi.
 
-```shell
-$ sudo reboot
-```
+        $ sudo reboot
 
     6) Go to /seeed-linux-usbdisp/drivers/linux-driver/xserver_conf. And there are five xorg.config files in this folder. 
        Please copy one of the files according to your own needs to /usr/share/X11/xorg.conf.d/
 
-```shell
-$ cd your_local_path/seeed-linux-usbdisp/drivers/linux-driver/xserver_conf/
-$ sudo cp the_file_you_need /usr/share/X11/xorg.conf.d/
-```
+        $ cd your_local_path/seeed-linux-usbdisp/drivers/linux-driver/xserver_conf/
+        $ sudo cp the_file_you_need /usr/share/X11/xorg.conf.d/
 
     7) Restart the X11 Server.
 
-```shell
-$ sudo service lightdm restart
-```
+        $ sudo service lightdm restart
 
 
 Note
