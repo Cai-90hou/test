@@ -52,10 +52,6 @@ Note
 ====================================================================================
 This driver does not support hot plugging. If you pull out the USB monitor and plug in it again that would cause the X11 Server to crash. In this time, you should restart your raspberry pi.
 
-'''shell
-$ sudo reboot
-'''
-
 
 Contact Us
 ====================================================================================
