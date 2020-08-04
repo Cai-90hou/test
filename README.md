@@ -11,8 +11,9 @@ Get more detail about Wio Terminal as USB Display from:
 
 
 ## Get Started
-Download the Seeed_Arduino_USBDISP library to your local.<br>
-There are two examples, NullFunctional and USBDisplayAndMouseControl:<br>
+Download the Seeed_Arduino_USBDISP library to your local.
+
+There are two examples, NullFunctional and USBDisplayAndMouseControl:
 
 1. If you want higher screen refresh rate on Wio Terminal, upload NullFunctional to Wio Terminal.
 
@@ -20,9 +21,9 @@ There are two examples, NullFunctional and USBDisplayAndMouseControl:<br>
 
 
 ## Note
-The USBDISP().begin(bool reverse, bool usermode) function has two parameters.
-In our examples, the default setting is USBDISP().begin(true)
-If you want to parse drawing function in usermode-sdk or python-demo(seeed-linux-usbdisp),
+The USBDISP().begin(bool reverse, bool usermode) function has two parameters.<br>
+In our examples, the default setting is USBDISP().begin(true)<br>
+If you want to parse drawing function in usermode-sdk or python-demo(seeed-linux-usbdisp),<br>
 you need to set it as USBDISP().begin(true, true)
 
 
