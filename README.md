@@ -11,8 +11,8 @@ Get more detail about Wio Terminal as USB Display from:
 
 
 ## Get Started
-Download the Seeed_Arduino_USBDISP library to your local.
-There are two examples, NullFunctional and USBDisplayAndMouseControl:
+Download the Seeed_Arduino_USBDISP library to your local.<br>
+There are two examples, NullFunctional and USBDisplayAndMouseControl:<br>
 
 1. If you want higher screen refresh rate on Wio Terminal, upload NullFunctional to Wio Terminal.
 
